@@ -1,0 +1,47 @@
+#page-input input{
+	box-sizing : border-box;
+}
+#page-input input#page-link{
+	float: left;
+	width: calc(100% - 130px);
+}
+#page-input input#start, #page-input input#stop{
+	float: right;
+	width: 120px;
+}
+input#stop{
+	display: none;
+}
+.row{
+	padding : 20px 10px 0px 10px;
+}
+p.instruction{
+	font-size: 0.9em;
+	padding : 10px 0 20px 0;
+}
+.loading-text{
+	margin-left: 10px;
+}
+.navbar-brand .fa-facebook-official{
+	margin-right: 10px;
+	display: inline-block;
+}
+.key{
+	font-weight: bold;
+}
+.loaded{
+}
+
+.page-picture-container{
+	margin-top: 10px;
+}
+.page-picture{
+	width: 50px;
+	height: 50px;
+}
+.post-status{
+	background-color: #F44336;
+	color : #fff;
+	padding : 2px 5px 2px 5px;
+	font-size: 0.8em;
+}
